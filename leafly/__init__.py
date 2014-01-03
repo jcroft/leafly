@@ -15,7 +15,7 @@ class Leafly:
 
 	def parse_reviews_json(self, data):
 		reviews = []
-		print data
+
 		for i in data:
 
 			# Date conversion
